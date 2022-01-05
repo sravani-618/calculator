@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-color: hsl(222, 26%, 31%);
+    font-family: 'Spartan', sans-serif;
+    
+}
+main{
+    font-weight: 700;
+}
+.calculator {
+    position: absolute;
+    width: 600px;
+    top: 95px;
+    left: 39%;
+}
+
+header {
+    display: flex;
+    color: #fff;
+}
+h1{
+    margin-top: 8px;
+}
+
+h6 {
+    margin: 20px 122px;
+    font-size: 18px;
+}
+.input {
+    margin: 0px 0px 16px -112px;
+}
+.middle-container {
+    margin-bottom: 13px;
+    border-radius: 10px;
+    background-color: hsl(224, 36%, 15%);
+    height: 80px;
+    width: 345px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 10px;
+    color: white;
+    overflow: hidden;
+}
+.middle-container > .previous-operand {
+    font-size: 15px;
+}
+.sub-container {
+    padding: 10px 10px 20px 10px;
+    position: relative;
+    width: 345px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+}
+.label-input{
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 10px;
+    padding: 4px;
+}
+.labels {
+    letter-spacing: 4px
+}
+/* .current-operand {
+    padding: 30px;
+    width: 345px;
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+}
+
+.previous-operand {
+    padding: 30px;
+    width: 345px;
+    background-color: hsl(224, 36%, 15%);
+    border: none;
+} */
+button.num, .operator{
+    width: 62px;
+    padding: 9px;
+    margin: 8px;
+    height: 55px;
+    font-weight: bolder;
+}
+button.num, .operator {
+    background-color: hsl(30, 25%, 89%);
+}
+.footer {
+    display: flex;
+}
+.footer button:nth-of-type(2){
+    margin-left: 17px;
+    margin-top: 7px;
+    padding: 9px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 1px 3px hsl(6, 63%, 50%) inset;
+}
+button[type=reset]{
+    background-color: hsl(225, 21%, 49%);
+}
+.footer button{
+    width: 146px;
+}
+button{
+    margin-top: 3px;
+    border-radius: 5px;
+    box-shadow: 0 5px hsl(28, 16%, 65%);
+    border: none;
+    height: 53px;
+    font-size: 30px;
+    font-family: 'Spartan', sans-serif;
+}
+.num {
+    color: hsl(223, 31%, 20%)!important;
+}
+button[type=reset]{
+    margin-left: 8px;
+    margin-top: 7px;
+    box-shadow: 0 5px hsl(225, 21%, 49%);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    height: 50px;
+}
+.del {
+    box-shadow: 0 4px hsl(225, 21%, 49%) inset;
+    text-transform: uppercase;
+    background-color: hsl(225, 21%, 49%);
+    font-size: 25px;
+    width: 62px;
+    padding: 9px;
+    margin: 8px;
+    height: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 43px 271px 0 0;
+}
+.my-class {
+    transform: scale(0.9);
+    box-shadow: 0 5px hsl(28, 16%, 65%);
+}
